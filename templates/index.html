@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Code Reviewer</title>
+</head>
+<body>
+
+    <h1>AI Code Reviewer</h1>
+
+    <form method="POST">
+
+        <textarea
+            name="code"
+            rows="15"
+            cols="80"
+            placeholder="Paste your code here">
+        </textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Review Code
+        </button>
+
+    </form>
+
+    <h2>Result</h2>
+
+    <pre>{{ review }}</pre>
+
+</body>
+</html>
